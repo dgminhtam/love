@@ -1,9 +1,11 @@
 var config = {
     lines: [
-        "Nhân dịp 20/10!",
-        "Gửi một nửa của anh",
-        "Luôn hạnh phúc, xinh đẹp và ngập tràn niềm vui!",
-        "8386",
-        "Iuuu bé nhắmmmm <3",
+        "Nhân dịp 2️⃣0️⃣/1️⃣0️⃣!",
+        "Xin gửi lời tới một nửa của anh️️ ❤️",
+        "Chúc cho bé thật nhiều sức khỏe.",
+        "Chúc cho bé cả đời bình an.",
+        "Chúc cho bé luôn vui vẻ và hạnh phúc.",
+        "8386 cho anh nhé 🫶",
+        "Iuuu bé nhắmmmm 👩‍❤️‍👨",
     ]
 }
