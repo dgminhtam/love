@@ -16,9 +16,7 @@ html, body {
 h1 {
   position: fixed;
   top: 200px;
-  left: 50%;
-  font-size: 35px;
-  transform: translateX(-50%);
+  font-size: 25px;
 }
 a {
   position: fixed;
