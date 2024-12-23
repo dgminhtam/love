@@ -6,28 +6,26 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&display=swap" rel="stylesheet">
-  <title>Miss you download</title>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&display=swap"
+    rel="stylesheet">
+  <title>Miss you download page</title>
   <link rel="stylesheet" href="./style.css">
 </head>
 
 <body>
-  <h1>Click nút download để tải về.</h1>
+  <h1>Click download để tải về.</h1>
   <button id="playButton" onclick="generateRandomNotifications()">Download</button>
-  <div class="final-message" id="finalMessage" onclick="redirectToNewPage()">
-    <p id="text1"></p>
-    <p id="text2"></p>
-  </div>
-  <audio id="audioPlayer" src="./TBN.mp3"></audio> 
+  <audio id="audioPlayer" src="./TBN.mp3"></audio>
   <script>
     const playButton = document.getElementById("playButton");
     const audioPlayer = document.getElementById("audioPlayer");
 
-    playButton.addEventListener("click", function() {
-        audioPlayer.play();
+    playButton.addEventListener("click", function () {
+      audioPlayer.play();
     });
-</script>
-<script src="./script.js"></script>
+  </script>
+  <script src="./script.js"></script>
 </body>
 
 </html>
